@@ -12,7 +12,7 @@
 			}
 
 			// Now escape html unless prevented by author
-			if( ! element.hasAttribute( 'data-noescape' )) {
+			if( false && ! element.hasAttribute( 'data-noescape' )) {
 				element.innerHTML = element.innerHTML.replace(/</g,"&lt;").replace(/>/g,"&gt;");
 			}
 
